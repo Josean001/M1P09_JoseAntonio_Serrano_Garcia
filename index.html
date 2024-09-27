@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- PRACTICA 9 -->
+        <meta name="copyright" content="© Jose Antonio Serrano García">
+        <!-- Autor -->
+        <meta name="author" content="Jose Antonio Serrano García">
+        <!-- Descripción -->
+        <meta name="description" content="Practica 2 de HTML">
+        <!-- Palabras claves -->
+        <meta name="keywords" content="practica,2,jose,developer">
+        <!-- Modelo de cifrado -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Titulo del la página web -->
+        <title>Práctica 9</title>
+        <style>
+            body{
+                text-align: center; /* Centrar el contenido */
+                margin: 20px; /* Margen del contenido */
+            }
+            img{
+                max-width: 600px; /* Ancho máximo de 600px */
+                height: auto; /* Alto en automático */
+            }
+            article{
+                text-align: justify; /* Justificar el texto */
+                margin: 0 auto 40px; /* Centrar el articulo */
+            }
+            table{
+                width: 50%; /* Ancho del 50% de la pantalla */
+                margin: 0 auto; /* Centrar la tabla */
+                border-collapse: collapse; /* Colapsar bordes */
+                border: 5px solid black; /* Borde 5 px */
+                background-color: #f0f8ff; /* Color de fondo de la tabla () */
+            }
+            th,td{
+                border: 1px solid black; /* Borde interno de la celdas */
+                padding: 10px; /* Especiamineto dentro de las celdas */
+                text-align: center; /* Centrar el contenido de las celdas */
+                font-family: Verdana, sans-serif; /* Combiar tipo de la letra */
+            }
+            th{
+                font-size: 24px; /* Cambiar el tamaño de la fuente o letra */
+                font-family: 'Courier New', Courier, monospace; /* Cambiar el tipo de letra */
+                background-color: #f2f2f2; /* El color del fondo se cambia a blanco */
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Encabezado con el nombre del grupo -->
+    <h1>AC/DC</h1>
+
+    <!-- Imagen centrada del grupo -->
+    <img src="img/ACDC-La-novela-grafica_cover_web.jpg" alt="Imagen del grupo AC/DC">
+
+    <!-- Artículo con la descripción del grupo -->
+    <article>
+
+        <p>
+            AC/DC es una de las bandas de rock más icónicas de todos los tiempos. Formada en 1973 por los hermanos Malcolm y Angus Young, 
+            la banda es conocida por su estilo único de hard rock y sus potentes presentaciones en vivo.
+        </p>
+
+        <p>
+            Con más de 200 millones de discos vendidos en todo el mundo, AC/DC ha dejado una huella imborrable en la historia de la música 
+            con canciones legendarias como "Back in Black", "Highway to Hell" y "Thunderstruck". Su sonido crudo, combinado con la energía 
+            de sus conciertos, ha sido clave para mantener su popularidad durante más de cuatro décadas.
+        </p>
+    </article>
+
+     <!-- Tabla con las mejores canciones del grupo -->
+     <table>
+        <!-- Primera fila que ocupa todas las columnas -->
+        <tr>
+            <th colspan="3">Top 3 canciones de AC/DC</th>
+        </tr>
+
+        <!-- Segunda fila: encabezados de las columnas -->
+        <tr>
+            <th>Canción</th>
+            <th>Álbum</th>
+            <th>Duración</th>
+        </tr>
+
+        <!-- Fila con la primera canción -->
+        <tr>
+            <td><a href="https://www.youtube.com/watch?v=pAgnJDJN4VA" target="_blank">Back in Black</a></td>
+            <td>Back in Black</td>
+            <td>4:15</td>
+        </tr>
+
+        <!-- Fila con la segunda canción -->
+        <tr>
+            <td><a href="https://www.youtube.com/watch?v=l482T0yNkeo" target="_blank">Highway to Hell</a></td>
+            <td>Highway to Hell</td>
+            <td>3:28</td>
+        </tr>
+
+        <!-- Fila con la tercera canción -->
+        <tr>
+            <td><a href="https://www.youtube.com/watch?v=v2AC41dglnM" target="_blank">Thunderstruck</a></td>
+            <td>The Razors Edge</td>
+            <td>4:52</td>
+        </tr>
+
+        <!-- Última fila con el enlace a la página oficial del grupo -->
+        <tr>
+            <td colspan="3">
+                <a href="https://www.acdc.com" target="_blank">Visita la página oficial de AC/DC</a>
+            </td>
+        </tr>
+    </table>
+    </body>
+</html>
